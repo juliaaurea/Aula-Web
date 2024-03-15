@@ -52,3 +52,7 @@ main.index {
     align-items: center;
     justify-content: center;
 }
+body {
+    min-height: 100vh;
+    background-color: var(--primary);
+}
