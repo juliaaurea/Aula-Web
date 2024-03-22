@@ -46,8 +46,10 @@ footer {
 footer img {
     margin: 0 0.5rem;
 }
-main.index {
+main{
     min-height: calc(100vh - 8.5rem);
+}
+main.index {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,3 +58,24 @@ body {
     min-height: 100vh;
     background-color: var(--primary);
 }
+main.comentario {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5rem;
+    align-content: baseline;
+ }
+ main.comentario section {
+    background-color: var(--tertiary);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    max-width: 17rem;
+    min-height: 7rem;
+ }
+ main.comentario section aside {
+    display: flex;
+ }
+ main.comentario aside p {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+ }
