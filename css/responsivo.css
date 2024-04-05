@@ -1,0 +1,28 @@
+@media (max-width:800px) {
+    main.comentario {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width:500px) {
+    main.comentario {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:400px) {
+    main.comentario {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    main.index section {
+        flex-direction: column;
+    }
+
+    main.index section img {
+        width: 100%;
+    }
+}

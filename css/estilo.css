@@ -54,6 +54,9 @@ main.index {
     align-items: center;
     justify-content: center;
 }
+main.index section img{
+    height: 60%;
+}
 body {
     min-height: 100vh;
     background-color: var(--primary);
@@ -71,11 +74,18 @@ main.comentario {
     border-radius: 0.5rem;
     max-width: 17rem;
     min-height: 7rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
  }
  main.comentario section aside {
     display: flex;
+    margin: 0.5rem 0;
  }
  main.comentario aside p {
     font-size: 0.8rem;
     margin-left: 0.5rem;
+ }
+ main.comentario section aside h4{
+    font-weight: 400;
  }
